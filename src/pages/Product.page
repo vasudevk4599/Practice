@@ -1,0 +1,5 @@
+<apex:page controller="Product_Data">
+    Name: {!Name} <br/><br/>
+    Price : {!Price} <br/><br/>
+    Quantity: {!Quantity}
+</apex:page>

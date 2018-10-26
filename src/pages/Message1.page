@@ -1,0 +1,10 @@
+<apex:page controller="PageReference_Example_1">
+    <apex:form >
+    	<apex:selectList size="1" value="{!selected}">
+            <apex:selectOption itemLabel="-None-" itemValue="none" />
+            <apex:selectOption itemLabel="VFPage" itemValue="Mypage" />
+        </apex:selectList>
+        <apex:commandButton value="Submit" action="{!invoke}" />
+        {!selected}
+    </apex:form>
+</apex:page>

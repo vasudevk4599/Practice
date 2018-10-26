@@ -1,0 +1,13 @@
+<apex:page controller="Accpp_Info">
+   <apex:form >
+       <apex:pageBlock title="Account">
+       <apex:pageBlocksection title="Account" collapsible="false">
+           <apex:pageBlockSection title="Account" collapsible="false">
+                <apex:inputText value="{!acc.name}" />
+                <apex:inputText value="{!acc.Phone}" />
+                <apex:inputText value="{!acc.Industry}" />
+            </apex:pageBlockSection>
+           </apex:pageBlocksection>
+       </apex:pageBlock>
+    </apex:form>
+</apex:page>

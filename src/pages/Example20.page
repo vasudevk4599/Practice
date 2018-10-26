@@ -1,0 +1,24 @@
+<apex:page >
+    <apex:tabPanel width="400" height="200" headerSpacing="10" switchType="Ajax">
+    	<apex:tab label="BasicInfo" labelWidth="150" id="one">
+            Name : 	<br/>
+            Gender:<br/>
+            Phone :<br/>
+        </apex:tab>
+        <apex:tab label="Education" labelWidth="150" id="two">
+            University  : <br/>
+            
+            College		:<br/>
+            
+            Passout		:<br/>
+        </apex:tab>
+         <apex:tab label="Communication" labelWidth="150" id="three">
+            City  : <br/>
+            
+            State	:<br/>
+            
+            Pincode	:<br/>
+        </apex:tab>
+        
+    </apex:tabPanel>
+</apex:page>

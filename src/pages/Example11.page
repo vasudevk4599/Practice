@@ -1,0 +1,26 @@
+<apex:page standardController="Account" recordSetVar="xyz">
+    <apex:form >
+        <apex:pageBlock title="Account">
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="Create"  />
+                <apex:commandButton value="DELETE" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!xyz}" var="a">
+                <apex:column >
+                    <apex:facet name="header" ><apex:inputCheckbox /></apex:facet>
+                    <apex:inputCheckbox />              
+                </apex:column>
+                <apex:column headerValue="Account name" >
+                <apex:commandLink value="{!a.name}" action="/{!a.id}" />
+            </apex:column>
+                <apex:column value="{!a.phone}"/>
+                <apex:column value="{!a.industry}"/>
+                <apex:column value="{!a.rating}"/>
+                <apex:column headerValue="Action">
+                    <apex:commandButton value="Edit" />
+                    <apex:commandButton value="Delete" />
+                </apex:column>
+            </apex:pageBlockTable>
+            </apex:pageBlock>
+         </apex:form>   
+</apex:page>

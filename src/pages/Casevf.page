@@ -1,0 +1,13 @@
+<apex:page controller="Opportunity_Info" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection title="Case">
+                <apex:inputText value="{!op.name}"/>
+                <apex:inputText value="{!op.Amount}"/>
+                <apex:inputText value="{!op.stageName}"/>
+                <apex:inputText value="{!op.closeDate}"/>
+
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

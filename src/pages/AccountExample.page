@@ -1,0 +1,26 @@
+<apex:page controller="Accmaa_Example">
+    <apex:form >
+    	<apex:pageBlock title="Account">
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="Save" action="{!Create}" />
+                <apex:commandButton value="Reset" action="{!cancel}" />
+            </apex:pageBlockButtons>
+        	<apex:pageBlockSection title="Account" collapsible="false">
+                <apex:inputText value="{!acc.name}" />
+                <apex:inputText value="{!acc.Phone}" />
+                <apex:inputText value="{!acc.Industry}" />
+                <apex:inputText value="{!acc.rating}" />
+                <apex:inputText value="{!acc.ownership}" />
+                <apex:inputText value="{!acc.AnnualRevenue}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Contact" collapsible="false">
+                <apex:inputText value="{!con.lastname}" />
+                <apex:inputText value="{!con.Phone}" />
+                <apex:inputText value="{!con.firstName}" />
+                <apex:inputText value="{!con.mobilephone}" />
+                <apex:inputText value="{!con.leadSource}" />
+                <apex:inputText value="{!con.otherphone}" />
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

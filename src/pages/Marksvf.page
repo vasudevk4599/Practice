@@ -1,0 +1,5 @@
+<apex:page controller="Marks" >
+    social : {!a[0]}<br/><br/>
+    science : {!a[1]}<br/><br/>
+    english : {!a[2]}<br/><br/>
+</apex:page>

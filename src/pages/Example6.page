@@ -1,0 +1,13 @@
+<apex:page >
+   <apex:form >
+    <apex:sectionHeader title="Student" subtitle="New Student" description="Welcome to students profile"/>
+    <apex:pageBlock title="Student" tabStyle="account" helpTitle="Help_for_students" helpUrl="\apex\page name">
+     <apex:pageBlockButtons location="top">
+      <apex:commandButton value="SAVE"/>   
+       <apex:commandButton value="CANCEL"/>  
+        </apex:pageBlockButtons>
+        Employee Name : <br/>
+        Employee Exp:
+    </apex:pageBlock> 
+       </apex:form>
+</apex:page>

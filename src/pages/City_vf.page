@@ -1,0 +1,6 @@
+<apex:page controller="City_Insert" >
+    {!city[0]}<br/><br/>
+    {!city[1]}<br/><br/>
+    {!city[2]}
+        
+</apex:page>

@@ -1,0 +1,12 @@
+<apex:page controller="Contact_Info" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection title="Contact">
+                <apex:inputText value="{!con.lastName}"/>
+                <apex:inputText value="{!con.firstName}"/>
+                <apex:inputText value="{!con.Email}"/>
+                <apex:inputText value="{!con.phone}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

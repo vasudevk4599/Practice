@@ -1,0 +1,6 @@
+<apex:page controller="Student_Info" >
+    Name: {!Name} <br/>
+    Age:{!Age}; <br />
+    Branch:{!Branch};
+               
+</apex:page>

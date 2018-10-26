@@ -1,0 +1,16 @@
+<apex:page standardController="Account" recordSetVar="items">
+    <apex:form >
+    	<apex:pageBlock title="Account">
+        	<apex:dataTable value="{!items}" var="a" frame="box" rules="rows" bgcolor="aqatic blue" cellpadding="10px" cellspacing="10px" >
+                <apex:column headerValue="Name" value="{!a.name}" />
+                <apex:column headerValue="Phone" value="{!a.phone}" />
+                <apex:column headerValue="Rating" value="{!a.rating}" />
+                <apex:column headervalue="Industry" value="{!a.industry}" />
+                <apex:column >
+                    <apex:commandlink value="{!a.name}" action="/{!a.id}" />
+                </apex:column>
+            </apex:dataTable>
+        </apex:pageBlock>
+       
+    </apex:form>
+</apex:page>

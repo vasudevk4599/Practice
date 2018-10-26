@@ -1,0 +1,9 @@
+<apex:page controller="Example23">
+    <apex:form id="fm">
+    	<apex:selectList size="1" value="{!selected}">
+            <apex:selectOptions value="{!options}" />
+        </apex:selectList>
+        <apex:commandButton value="Submit" action="{!call}" reRender="fm" /> <br/><br/>
+        {!result}
+    </apex:form>
+</apex:page>

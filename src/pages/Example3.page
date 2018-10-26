@@ -1,0 +1,36 @@
+<apex:page >
+    <apex:form >
+    	<apex:pageBlock title="Student">
+        	<apex:pageBlockButtons >
+                <apex:commandButton value="Submit" />
+                <apex:commandButton value="Cancel" />
+            </apex:pageBlockButtons>
+            This is example <br/>
+            This is example 
+        </apex:pageBlock>
+        <apex:pageBlock title="Student">
+        	<apex:pageBlockButtons location="top">
+                <apex:commandButton value="Submit" />
+                <apex:commandButton value="Cancel" />
+            </apex:pageBlockButtons>
+            This is example <br/>
+            This is example 
+        </apex:pageBlock>
+         <apex:pageBlock title="Student">
+        	<apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Submit" />
+                <apex:commandButton value="Cancel" />
+            </apex:pageBlockButtons>
+            This is example <br/>
+            This is example 
+        </apex:pageBlock>
+         <apex:pageBlock title="Student">
+        	<apex:pageBlockButtons location="top" dir="RTL">
+                <apex:commandButton value="Submit" />
+                <apex:commandButton value="Cancel" />
+            </apex:pageBlockButtons>
+            This is example <br/>
+            This is example 
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

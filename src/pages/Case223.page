@@ -1,0 +1,11 @@
+<apex:page controller="Case_Info">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection title="Case">
+                <apex:inputText value="{!c.subject}"/>
+                <apex:inputText value="{!c.origin}"/>
+                <apex:inputText value="{!c.priority}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
